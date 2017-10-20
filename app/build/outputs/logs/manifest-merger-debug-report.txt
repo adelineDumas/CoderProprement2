@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:2:1-21:12
+ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:2:1-22:12
 	package
 		ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/An
 		INJECTED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:5:5-19:19
+ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:5:5-20:19
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /Users/iem/.android/build-cache/a8c7566a52710734f8993dd7087774a400dbd267/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /Users/iem/.android/build-cache/63826cf8434c06d23bcb965372a359785749b407/output/AndroidManifest.xml:29:5-20
@@ -37,10 +37,10 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/iem/
 		ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:7:9-43
 	android:theme
 		ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.example.iem.coderproprement2.MainActivity
+activity#com.example.iem.coderproprement2.Activity.MainActivity
 ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:12:19-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
@@ -51,6 +51,10 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:16:17-77
 	android:name
 		ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:16:27-74
+activity#com.example.iem.coderproprement2.Activity.DetailActivity
+ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:19:9-60
+	android:name
+		ADDED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml:19:19-58
 uses-sdk
 INJECTED from /Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/AndroidManifest.xml:21:5-23:78

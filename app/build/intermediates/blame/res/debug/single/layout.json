@@ -80,6 +80,10 @@
         "source": "/Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
+        "merged": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/build/intermediates/res/merged/debug/layout/activity_detail.xml",
+        "source": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/src/main/res/layout/activity_detail.xml"
+    },
+    {
         "merged": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
