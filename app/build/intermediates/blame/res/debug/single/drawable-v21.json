@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/res/drawable-v21/notification_action_background.xml"
+    }
+]

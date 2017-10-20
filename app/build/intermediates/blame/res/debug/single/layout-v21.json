@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/res/layout-v21/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/iem/Documents/CoderProprement/CoderProprement2/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/iem/.android/build-cache/5e1db3c3ad9bce6bfde5ebd7981fd8fc5657a930/output/res/layout-v21/notification_action_tombstone.xml"
+    }
+]
