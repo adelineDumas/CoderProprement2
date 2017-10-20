@@ -8,13 +8,12 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.example.iem.coderproprement2.BLE.BLEManager;
+import com.example.iem.coderproprement2.Device;
 import com.example.iem.coderproprement2.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    private Button buttonConnect;
-    private Button buttonDetail;
-    private TextView tvDevicePaired;
+    private TextView textViewDevicePaired;
 
 
     @Override
@@ -22,24 +21,42 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        buttonConnect = (Button) findViewById(R.id.buttonConnect);
-        buttonDetail = (Button) findViewById(R.id.buttonDetail);
-        tvDevicePaired = (TextView) findViewById(R.id.tvDevicePaired);
+        //ad - appel de la méthode qui initialise les views
+        initViews();
 
-        buttonDetail.setOnClickListener(new View.OnClickListener() {
+    }
+
+    /**
+     * Initialise la vue
+     * @author Adeline Dumas
+     */
+    private void initViews(){
+
+         Button lButtonConnect;
+         Button lButtonDetail;
+
+        lButtonConnect = (Button) findViewById(R.id.buttonConnect);
+        lButtonDetail = (Button) findViewById(R.id.buttonDetail);
+        textViewDevicePaired = (TextView) findViewById(R.id.tvDevicePaired);
+
+        lButtonDetail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //ad - on déclare et on lance une nouvelle activité
                 Intent intent = new Intent(MainActivity.this, DetailActivity.class);
                 startActivity(intent);
             }
         });
 
-        buttonConnect.setOnClickListener(new View.OnClickListener() {
+        //ad - si l'on clique sur le bouton connect
+        lButtonConnect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                tvDevicePaired.setText("deviced paired");
+                BLEManager manager = BLEManager.getInstance();
+                manager.connect(new Device());
+                //ad - on modifie la valeur de la textView
+                textViewDevicePaired.setText("deviced paired");
             }
         });
-
     }
 }

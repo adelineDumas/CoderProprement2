@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tvNameDevice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="@string/valueNameDevice" />
 
     <Button
         android:id="@+id/buttonRate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Rate" />
+        android:text="@string/rate" />
 
     <TextView
         android:id="@+id/tvRate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="70" />
+        tools:text="@string/valueRate" />
+
 </LinearLayout>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,36 +9,28 @@
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp"
-        tools:layout_editor_absoluteY="8dp">
+        android:orientation="vertical">
 
         <Button
             android:id="@+id/buttonConnect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Connect"
-            tools:layout_editor_absoluteX="-5dp"
-            tools:layout_editor_absoluteY="-7dp" />
+            android:text="@string/connect" />
 
         <TextView
             android:id="@+id/tvDevicePaired"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="deviced not paired"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="56dp" />
+            tools:text="@string/statutDeviced" />
 
         <Button
             android:id="@+id/buttonDetail"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Detail"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="122dp" />
+            android:text="@string/detail" />
 
     </LinearLayout>
 

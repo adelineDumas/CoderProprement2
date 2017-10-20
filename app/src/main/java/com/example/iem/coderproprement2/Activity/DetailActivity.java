@@ -12,25 +12,41 @@ import com.example.iem.coderproprement2.R;
 
 public class DetailActivity extends AppCompatActivity{
 
-    private Button buttonRate;
-    private TextView tvRate;
-
+    private TextView textViewRate;
+    private TextView textViewnameDevice;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        buttonRate = (Button) findViewById(R.id.buttonRate);
-        tvRate = (TextView) findViewById(R.id.tvRate);
+        //ad - appel de la méthode qui initialise la vue
+        initViews();
+    }
 
-        buttonRate.setOnClickListener(new View.OnClickListener() {
+    /**
+     * Initialise la vue
+     *
+     * @author Adeline Dumas
+     */
+    private void initViews(){
+        Button lButtonRate;
+
+        lButtonRate = (Button) findViewById(R.id.buttonRate);
+        textViewRate = (TextView) findViewById(R.id.tvRate);
+        textViewnameDevice = (TextView) findViewById(R.id.tvNameDevice);
+
+        textViewnameDevice.setText(BLEManager.getInstance().getDeviceName());
+
+
+        //ad - si l'on clique sur le bouton Rate
+        lButtonRate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                tvRate.setText(BLEManager.getInstance().getRate());
 
+                //ad - on modifie la valeur de la textView
+                textViewRate.setText(BLEManager.getInstance().getHearthRate());
             }
         });
-
     }
 }
