@@ -11,8 +11,9 @@ import com.example.iem.coderproprement2.R;
 
 
 public class DetailActivity extends AppCompatActivity{
-    Button buttonRate;
-    TextView tvRate;
+
+    private Button buttonRate;
+    private TextView tvRate;
 
 
     @Override

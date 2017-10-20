@@ -12,9 +12,9 @@ import com.example.iem.coderproprement2.R;
 
 public class MainActivity extends AppCompatActivity {
 
-    Button buttonConnect;
-    Button buttonDetail;
-    TextView tvDevicePaired;
+    private Button buttonConnect;
+    private Button buttonDetail;
+    private TextView tvDevicePaired;
 
 
     @Override
